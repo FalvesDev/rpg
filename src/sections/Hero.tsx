@@ -15,7 +15,7 @@ export default function Hero({}: Props) {
             words: [
                 "Olá, viajante",
                 "Seja bem vindo",
-                "Exmo'vek te aguarda!"
+                "Exmo'Vek te aguarda!"
             ],
             loop: 3,
             delaySpeed: 2000,
@@ -45,7 +45,7 @@ export default function Hero({}: Props) {
         />
         <div>
             <h2 className="text-sm uppercase text-gray-100 pb-2 pt-2 tracking-[15px]">
-                EXMO'VEK A JORNADA
+                EXMO&apos;VEK A JORNADA
             </h2>
             <h1 className="text-2xl md:text-5xl lg:text-6xl font-semibold px-10">
                 <span className="mr-3">{text}</span>
