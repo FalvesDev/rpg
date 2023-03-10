@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { close,  menu } from '../../public/botoes';
 import { navLinks } from '../data/links'
 import Image from 'next/image';
+import d20logo from '../../public/images/d20-logo.png';
 
 import React from 'react'
 import { motion } from "framer-motion";
@@ -37,10 +38,10 @@ const NavBar = (props: Props) => {
                 href="/" 
                 className="flex items-center"
             >
-                <img 
-                    src="/images/d20-logo.png" 
-                    className="h-12 mr-3 md:w-[80px] md:h-[80px]" 
-                    alt="D20 Logo" 
+                <Image 
+                src={d20logo}
+                alt="menu"
+                className="w-[70px] h-[70px] object-contain"
                 />
                 <span 
                     className="self-center text-xl md:text-2xl font-semibold"
