@@ -51,7 +51,6 @@ export default function Hero({}: Props) {
                 <span className="mr-3">{text}</span>
                 <Cursor cursorColor="#F7AB0A"/>
             </h1>
-
         </div>
     </motion.div>
     )
