@@ -2,8 +2,10 @@
 
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import { motion } from "framer-motion";
+import hero from '../../public/images/hero-p.png';
 
 type Props = {}
 
@@ -36,8 +38,9 @@ export default function Hero({}: Props) {
             duration: 1,
         }}
         className="z-0 h-screen pb-[150px] flex flex-col items-center justify-center text-center overflow-hidden">
-        <img className="z-1 relative h-80 w-80 mx-auto " 
-        src="../images/hero-p.png" 
+        <Image 
+        className="z-1 relative h-80 w-80 mx-auto mb-4" 
+        src={hero} 
         alt=""
         />
         <div>
