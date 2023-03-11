@@ -81,7 +81,7 @@ const NavBar = (props: Props) => {
                 </ul>
             </div>
             {/* botão */}
-            <div className="md:hidden flex flex-row justify-end items-center">
+            <div className="md:hidden flex flex-row justify-end items-center mt-2">
             <Image 
                 src={toggle ? close : menu}
                 alt="menu"
